@@ -1,0 +1,23 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --police: "lato-black" , Arial, Helvetica, sans-serif;
+    --primary: rgb(23, 23, 32);
+
+}
+body{
+    background: rgb(232, 232, 238);
+}
+
+
+
+ul,ol{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,45 @@
+
+/**************BANIÈRE********************************/
+
+.navbar-part{
+    background-color: var(--primary);
+    position: fixed;
+    width: 100%;
+}
+.navbar-part img{
+    width: 80px;
+    margin: 10%;
+
+}
+.navbar-part a{
+    color: white;
+}
+.navbar-content{
+    display: flex;
+    color: whitesmoke;
+    font-family: var(--police);
+    align-items: center;
+
+}
+h1{
+    margin-left: 1em;
+}
+.navbar-links{
+    margin-left: 51%;
+    justify-content: center ;
+}
+.navbar-link{
+    display : flex;
+    margin-right: 5em;
+    font-family:  var(--police);
+
+
+}
+.fifth-link{
+    margin-left: 30%;
+
+}
+.navbar-item {
+    margin-left: 1em;
+    margin-right: 1em;
+}
