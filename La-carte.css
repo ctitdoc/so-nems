@@ -5,6 +5,7 @@
 :root{
     --police: "lato-black" , Arial, Helvetica, sans-serif;
     --primary: rgb(23, 23, 32);
+    --couleur_police: white;
 
 }
 body{
@@ -80,6 +81,8 @@ a{
 
 .menu-1{
     display: flex;
+    margin-top: 4em;
+    box-shadow: 5px 11px 20px 9px #000000;
 }
 .plat-1{
     flex: 50%;
@@ -88,11 +91,32 @@ a{
     flex:50%;
 }
 .plat-1 img{
-
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
     width: 100%;
 
 }
+.plat-1:hover img{
+    -webkit-transform: scale(1.10);
+    -moz-transform:scale(1.10);
+    transform: scale(1.10);
+}
+.desc-plat1{
+    background: var(--primary);
+}
 .desc-plat1 h3{
-    margin-left: 1em;
+    margin-top: 1.5em;
+    margin-left: 2em;
+    color: var(--couleur_police);
 
 }
+.desc-plat1 p{
+    margin-top: 1em;
+    margin-left: 2em;
+    color: var(--couleur_police);
+}
+
+
+
+

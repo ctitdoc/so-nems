@@ -50,3 +50,17 @@ h1{
     margin-left: 1em;
     margin-right: 1em;
 }
+
+
+/***************************** FOOTER ***********************/
+.footer{
+    margin-top: 4em;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    background: rgb(23, 23, 32);;
+}
+.footer p{
+    color: white;
+    padding: 4em
+}
