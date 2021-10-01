@@ -96,6 +96,7 @@ a{
     transition: all 1s ease;
     width: 100%;
 
+
 }
 .plat-1:hover img{
     -webkit-transform: scale(1.10);
