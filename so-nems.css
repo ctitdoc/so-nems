@@ -21,6 +21,15 @@ ul,ol{
 a{
     text-decoration: none;
 }
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+@media (max-width: 1024px){
+    .container{
+        width: 90%
+    }
+}
 /**************************BANIÈRE*****************************/
 .nav-img{
     height: 100vh;
@@ -29,6 +38,11 @@ a{
     align-items: center;
     justify-content: center;
     align-content: center;
+}
+@media(max-width: 1024px){
+    .nav-img{
+        flex-wrap: wrap;
+    }
 }
 
 .title{
@@ -61,7 +75,11 @@ a{
 }
 
 /***************************** ACCEUIL *****************************/
-
+@media(max-width: 1024px){
+    .Colonne{
+        flex-wrap: wrap;
+    }
+}
 .Colonne{
     margin-top: 1em;
     display: flex;

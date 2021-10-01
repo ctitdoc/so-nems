@@ -1,4 +1,3 @@
-
 /**************BANIÈRE********************************/
 
 .navbar-part{
@@ -7,6 +6,7 @@
     width: 100%;
 }
 .navbar-part img{
+    margin-right: 80%;
     width: 80px;
     margin: 10%;
 
@@ -19,8 +19,15 @@
     color: whitesmoke;
     font-family: var(--police);
     align-items: center;
+    justify-content: center;
 
 }
+@media(max-width: 1024px){
+    .navbar-content{
+        flex-wrap: wrap;
+    }
+}
+
 h1{
     margin-left: 1em;
 }
