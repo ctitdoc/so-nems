@@ -1,9 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --police: "lato-black" , Arial, Helvetica, sans-serif;
+    --primary: rgb(23, 23, 32);
+    --couleur_police: white;
+
+}
+body{
+    background: rgb(232, 232, 238);
+}
+ul,ol{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
 /**************BANIÈRE********************************/
 
 .navbar-part{
     background-color: var(--primary);
-    position: fixed;
+
     width: 100%;
+    z-index: 999;
 }
 .navbar-part img{
     margin-right: 80%;

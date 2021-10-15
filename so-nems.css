@@ -30,6 +30,9 @@ a{
         width: 90%
     }
 }
+.navbar-part{
+    position: fixed;
+}
 /**************************BANIÈRE*****************************/
 .nav-img{
     height: 100vh;
