@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initiale=scale=1">
     <link rel="stylesheet" href="inscription.css">
     <link rel="stylesheet" href="mains.css">
+    <script src="./testJs.js"></script>
+    <script src="https://kit.fontawesome.com/4c9c1eb731.js" crossorigin="anonymous"></script>
     <title>inscrption</title>
+    <script src="./bootstrap.js"></script>
 </head>
 <body>
 <header>
@@ -29,10 +32,10 @@
                         <a href="Annonce">
                             <li class="navbar-item">Annonce</li>
                         </a>
-                        <a href="contact.html">
+                        <a href="#contact">
                             <li class="navbar-item">Contact</li>
                         </a>
-                        <a href="Mon_Compte">
+                        <a href="mon-compte.html">
                             <li class="fifth-link">Mon Compte</li>
                         </a>
 
@@ -49,22 +52,23 @@
     <div class="banner">
         <div class="img-banner"></div>
         <div class="titre">
-            <h1><h1> Inscrption </h1>
+            <h1> Inscrption </h1>
 
         </div>
+    </div>
 </header>
 
 <main>
     <section>
         <div class="container">
             <div class="formulaire">
-                <form method="post" action="#">
+                <form id="member_subscription_form" name="member_subscription_form_name" method="post" action="#">
                     <div>
                     <p><label for="nom"> Nom </label><br/>
-                        <input type="text" name="nom" id="nom" placeholder="Ex: Anton lpb" size="25" maxlength="100"/>
+                        <input type="text" name="nom" id="nom" placeholder="Ex: Antoine" size="25" maxlength="100"/>
                     </p>
                     <p><label for="prenom"> Prénom </label><br/>
-                        <input type="text" name="prenom" id="prenom" placeholder="Ex: Dela" size="25" maxlength="100"/>
+                        <input type="text" name="prenom" id="prenom" placeholder="Ex: Dubuisson" size="25" maxlength="100"/>
                     </p>
 
                     <p><label for="date-naissance"> Date de naissance </label><br/>
@@ -74,7 +78,11 @@
                     <p><label for="tel"> Numero de telephone </label><br/>
                         <input type="tel" name="tel" id=tel placeholder="01.02.03.04.05" size="25" maxlength="100"/></p>
 
-                    <p><label for="mail"> Adresse mail </label> <br/>
+                        <p><label for="adresse"> Adresse </label><br/>
+                            <input type="text" name="adresse" id=adresse placeholder="9 rue des tuleries" size="25" maxlength="100"/></p>
+
+
+                        <p><label for="mail"> Adresse mail </label> <br/>
                         <input type="email" name="mail" id=mail placeholder="Email@email.**" size="25" maxlength="100"/>
                     </p>
 
@@ -87,7 +95,8 @@
                         <input type="password" name="conf" id=conf placeholder="*" size="25" maxlength="100"/></p>
                     </div>
                     <div>
-                        <input type = "submit" value ="validé"
+
+                        <button id="TpTest" type="button"> Valider </button>
                     </div>
 
 
@@ -98,8 +107,35 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
-        <p>*******************************************************</p>
+    <footer id= "contact" class= "footer">
+        <table class="footer-table">
+            <tbody>
+            <tr class ="tr1">
+                <td class = "icon">
+                    <i class="fas fa-phone-alt"></i>
+                </td>
+                <td class="info">
+                    <p>01.02.03.04.05</p>
+                </td>
+            </tr>
+            <tr class ="tr2">
+                <td class = "icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </td>
+                <td class="info">
+                    <p>18 rue Trump</p>
+                </td>
+            </tr>
+            <tr class ="tr3">
+                <td class = "icon">
+                    <i class="fas fa-clock"></i>
+                </td>
+                <td class="info">
+                    <p> Livraison et à Emporter</p>
+                </td>
+            </tr>
+            </tbody>
+        </table>
     </footer>
 </main>
 
