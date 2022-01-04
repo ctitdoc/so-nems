@@ -1,3 +1,13 @@
 import * as wasm from "so-nems";
 
-wasm.greet();
+
+
+const TpTest = document.getElementById("TpTest");
+
+TpTest.addEventListener("click", event => {
+    wasm.greet();
+
+    wasm.test_dom();
+})
+
+

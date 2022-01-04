@@ -1,10 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<html>
 
-</body>
-</html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initiale=scale=1">
+    <link rel="stylesheet" href="mon-compte.css">
+    <link rel="stylesheet" href="mains.css">
+    <script src="https://kit.fontawesome.com/4c9c1eb731.js" crossorigin="anonymous"></script>
+    <title>Sô Nems</title>
+</head>
+
+<body>
+<header>
+    <nav class="navbar-part">
+        <div class="container">
+            <div class="navbar-content">
+                <a href="#">
+                    <img src="./img/nems-logo.jpg" alt="">
+                </a>
+                <h1> Sô Nems.fr</h1>
+
+
+                <div class="navbar-links">
+                    <ul class="navbar-link">
+                        <a href="index.html">
+                            <li class="navbar-item"> Acceuil</li>
+                        </a>
+                        <a href="La-carte.html">
+                            <li class="navbar-item">La Carte</li>
+                        </a>
+                        <a href="Annonce">
+                            <li class="navbar-item">Annonce</li>
+                        </a>
+                        <a href="#contact">
+                            <li class="navbar-item">Contact</li>
+                        </a>
+                        <a href="mon-compte.html">
+                            <li class="fifth-link">Mon Compte</li>
+                        </a>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+</header>
+<header>
+    <div class="banner">
+        <div class="img-banner"></div>
+        <div class="titre">
+            <h1><h1> Mon compte </h1>
+
+        </div>
+</header>
+<main>
+    <section>
+        <div class="container">
+            <div class="formulaire">
+                <form method="post" action="#">
+                    <div>
+                        <p><label for="identifiant"> Identifiant </label><br/>
+                            <input type="text" name="identifiant" id="identifiant" placeholder="Ex: Antoine" size="25" maxlength="100"/>
+                        </p>
+                        <p><label for="Mp"> Mot de passe </label><br/>
+                            <input type="text" name="Mp" id="Mp" placeholder="Ex: Dubuisson" size="25" maxlength="100"/>
+                        </p>
+                    </div>
+                    <div>
+                        <button onclick="testWasm()" type="button"> Connexion </button>
+                    </div>
+
+                    <div class = "link">
+                    <a href="#"> Mot de passe oublié</a>
+
+                    <a href="inscription.html"> S'inscrire</a>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer id= "contact" class= "footer">
+        <table class="footer-table">
+            <tbody>
+            <tr class ="tr1">
+                <td class = "icon">
+                    <i class="fas fa-phone-alt"></i>
+                </td>
+                <td class="info">
+                    <p>01.02.03.04.05</p>
+                </td>
+            </tr>
+            <tr class ="tr2">
+                <td class = "icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </td>
+                <td class="info">
+                    <p>18 rue Trump</p>
+                </td>
+            </tr>
+            <tr class ="tr3">
+                <td class = "icon">
+                    <i class="fas fa-clock"></i>
+                </td>
+                <td class="info">
+                    <p> Livraison et à Emporter</p>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </footer>
+</main>
