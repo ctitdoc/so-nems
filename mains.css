@@ -24,12 +24,12 @@ a{
     background-color: var(--primary);
 
     width: 100%;
-    z-index: 999;
+    z-index: 999; //999
 }
 .navbar-part img{
     margin-right: 80%;
     width: 80px;
-    margin: 10%;
+    margin: 2%;
 
 }
 .navbar-part a{
@@ -46,6 +46,7 @@ a{
 @media(max-width: 1024px){
     .navbar-content{
         flex-wrap: wrap;
+
     }
 }
 
@@ -53,7 +54,7 @@ h1{
     margin-left: 1em;
 }
 .navbar-links{
-    margin-left: 51%;
+    margin-left: 10%; //51%
     justify-content: center ;
 }
 .navbar-link{
@@ -64,13 +65,14 @@ h1{
 
 }
 .fifth-link{
-    margin-left: 30%;
+    margin-left: 10%;  // 30%
 
 }
 .navbar-item {
     margin-left: 1em;
     margin-right: 1em;
 }
+/***************************** MAIN ***********************/
 
 
 /***************************** FOOTER ***********************/
