@@ -9,7 +9,7 @@
 
 }
 body{
-    position: relative;
+    z-index: 1;
     background: rgb(232, 232, 238);
 }
 ul,ol{
@@ -22,10 +22,10 @@ a{
 /**************BANIÈRE********************************/
 
 .navbar-part{
-    background-color: var(--primary);
 
+    background-color: var(--primary);
+    position: fixed;
     width: 100%;
-    z-index: 999; //999
 }
 .navbar-part img{
     margin-right: 80%;
@@ -88,7 +88,7 @@ h1{
     background: rgb(23, 23, 32);
     padding: 4em;
     font-family: var(--police);
-    position: fixed;
+    position: sticky;
     bottom: 0;
 
 
