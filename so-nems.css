@@ -184,4 +184,24 @@ a{
 
 }
 
+/**************************Inscription*****************************/
 
+.formulaire{
+    margin-top: 150px;
+    margin-left: 700px;
+    margin-right: auto;
+}
+
+#member_subscription_form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    background-color: rgba(23, 23, 32, 0.81);
+    border-radius: 10px;
+    padding: 5px;
+    color: whitesmoke;
+    font-family: var(--police);
+    text-shadow: 2px 2px black;
+    box-shadow: black;
+}
