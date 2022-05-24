@@ -24,7 +24,7 @@ a{
 .navbar-part{
 
     background-color: var(--primary);
-    position: fixed;
+    position: relative;
     width: 100%;
     top: 0;
 }
