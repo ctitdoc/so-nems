@@ -187,12 +187,14 @@ a{
 .subscribe{
     padding-top: 7em;
     height: 550px;
+    background-color: red;
 }
 
 /**************************Inscription*****************************/
 
 .formulaire{
     margin: auto;
+
 }
 
 #member_subscription_form{
