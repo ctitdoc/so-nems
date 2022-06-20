@@ -63,8 +63,9 @@ h1{
     display : flex;
     margin-right: 5em;
     font-family:  var(--police);
-
-
+}
+.navbar-link a {
+    padding: 1em;
 }
 .fifth-link{
     margin-left: 10%;  // 30%
