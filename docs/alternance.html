@@ -1,0 +1,71 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Alternance document</title><script langauge="javascript">
+          function collapse_or_expand(id) {
+          elem = document.getElementById(id);
+          if (elem.style.display=='block')
+          elem.style.display='none'
+          else
+          elem.style.display='block'
+          }
+        </script></head><body><div id="page"><div id="articleBody"><div class="article"><div class="header"><div class="heading"><h1 style="text-align:justify">Alternance document</h1><div class="decoration"></div></div></div><p>This document contains the alternance docs organized by topics.</p><div class="section">
+    <h2 class="section-numbering-false">Rust-Wasm learning curve</h2>
+    <p>
+      <a href="https://www.rust-lang.org/">Rust</a> : a general purpose "new generation" strongly typed language : </p>
+    <div class="ul list "><div class="content"><ul><li><div class="li-content">
+        <p>with strong and stable community,</p>
+      </div></li><li><div class="li-content">
+        <p>from <a href="https://insights.stackoverflow.com/survey/2021">Stackoverflow survey 2021</a> : "For the sixth-year, Rust is the most loved language".</p>
+      </div></li></ul></div></div>
+    <p>
+      <a href="https://www.w3.org/TR/wasm-core-2/">Wasm</a> (WebAssembly) : a standard, safe and portable bytecode format, executable in browsers, with or without Javascript code.</p>
+    <p>The basic principle of a Wasm Web App :</p>
+    <div class="ul list "><div class="content"><ul><li><div class="li-content">
+        <p>code your whole web app in your desired "wasm compliant" language =&gt; JS is no more mandatory browser side !</p>
+      </div></li><li><div class="li-content">
+        <p>compile your browser side code in Wasm;</p>
+      </div></li><li><div class="li-content">
+        <p>optionally use valued-added JS libraries =&gt; JS and Wasm are totally interoperable !</p>
+      </div></li></ul></div></div>
+    <p>Rust key concepts :</p>
+    <div class="ul list "><div class="content"><ul><li><div class="li-content">
+        <p>
+          <a href="https://doc.rust-lang.org/reference/type-system.html">Type system</a> : Struct, Trait, Impl, Fn, Enum, Generic types, type inference =&gt; <a href="https://doc.rust-lang.org/book/ch17-00-oop.html">flexible ans stable object oriented programming</a> (yet more complex to learn),</p>
+      </div></li><li><div class="li-content">
+        <p>
+          <a href="https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html">Borrowing</a> : value vs references managment =&gt; no garbage collecting needed = less resource consumption (yet more complex to learn),</p>
+      </div></li><li><div class="li-content">
+        <p>
+          <a href="https://doc.rust-lang.org/book/ch19-06-macros.html">Macros</a> : add user defined languages =&gt; see html language macro below,</p>
+      </div></li><li><div class="li-content">
+        <p>
+          <a href="https://rust-lang.github.io/async-book/01_getting_started/04_async_await_primer.html">Async</a> : asynchronous programming =&gt; required in web browser programming.</p>
+      </div></li></ul></div></div>
+  </div><div class=" section list "><h2 id="site_architecture" style="text-align:justify" class="section-numbering-false">So-nems site architecture</h2><p>
+      <a href="http://www.so-nems.fr/docs/so-nems.png">This diagram</a> illustrates so-nems architecture.</p><p>Here are the reference component implementing the different blocks :</p><div class="ul list "><div class="content"><ul><li><div class="li-content">
+        <p>Clion IDE with Rust plugin : <a href="https://www.jetbrains.com/fr-fr/rust/">https://www.jetbrains.com/fr-fr/rust/</a>
+        </p>
+      </div></li><li><div class="li-content">
+        <p>Yew MVC framework : <a href="https://yew.rs/">https://yew.rs/</a>
+        </p>
+      </div></li><li><div class="li-content">
+        <p>Trunk Server : <a href="https://trunkrs.dev/">https://trunkrs.dev/</a>
+        </p>
+      </div></li><li><div class="li-content">
+        <p>Rust Rocket Web Server : <a href="https://rocket.rs/">https://rocket.rs/</a>
+        </p>
+      </div></li><li><div class="li-content">
+        <p>Database Server : <a href="https://www.postgresql.org/">https://www.postgresql.org/</a>
+        </p>
+      </div></li></ul></div></div><div class="content"><ul></ul></div></div><div class="section">
+    <h2 id="it-doc_dev_process" class="section-numbering-false">It-doc developpment process</h2>
+    <p>
+      <a href="http://www.so-nems.fr/docs/dev-process.png">This diagram</a> illustrates It-doc's developpment process.</p>
+    <p>Here are the reference component integrated for the different blocks :</p>
+    <div class="ul list "><div class="content"><ul><li><div class="li-content">
+        <p>VMs : <a href="https://www.virtualbox.org/">https://www.virtualbox.org/</a>
+        </p>
+      </div></li><li><div class="li-content">
+        <p>GitHub : <a href="https://github.com/">https://github.com/</a>
+        </p>
+      </div></li></ul></div></div>
+  </div></div></div></div></body></html>
